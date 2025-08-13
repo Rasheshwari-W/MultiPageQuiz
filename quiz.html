@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        .start-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .start-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Instructions</h1>
+        <ul>
+            <li>Each question has four options, only one is correct.</li>
+            <li>You will have a limited time to answer each question.</li>
+            <li>Click "Next" to go to the next question.</li>
+            <li>Your final score will be displayed at the end.</li>
+        </ul>
+        <br>
+        <!-- Link to start the quiz -->
+        <a href="QuestionServlet" class="start-btn">Start Quiz</a>
+    </div>
+</body>
+</html>
+
